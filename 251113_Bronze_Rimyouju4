@@ -1,0 +1,6 @@
+# 9086 : 문자열
+
+T = int(input())
+for i in range(T):
+    listA = list(input())
+    print(listA[0] + listA[-1])
