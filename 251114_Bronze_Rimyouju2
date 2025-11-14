@@ -1,0 +1,6 @@
+# 11720 : 숫자의 합
+
+N = int(input())
+n = input()
+num = list(map(int, n))
+print(sum(num))
