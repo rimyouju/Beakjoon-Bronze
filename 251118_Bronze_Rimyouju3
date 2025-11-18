@@ -1,0 +1,5 @@
+# 1152 : 단어의 개수
+
+string = str(input())
+words = string.split()
+print(len(words))

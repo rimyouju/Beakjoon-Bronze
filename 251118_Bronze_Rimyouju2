@@ -1,0 +1,10 @@
+# 2675 : 문자열 반복
+
+T = int(input()) # 테스트 케이스 개수
+for i in range(T):
+    R, S = map(str, input().split()) # R: 반복 횟수, S: 문자열
+    R = int(R)
+    S = list(S)
+    for j in range(len(S)):
+        print(S[j] * R, end = '')
+    print()  # 줄 바꿈
